@@ -1527,8 +1527,7 @@ public final class TerminalView extends View {
         mTermSession.updateSize(newColumns, newRows, cellWidthPixels, cellHeightPixels);
         mClient.onTerminalReady();
 
-        mTopRow = 0;
-        scrollTo(0, 0);
+
         invalidate();
     }
 
